@@ -4,12 +4,10 @@ namespace CarSales
 {
     public class SaleRecord
     {
-        // Приватные поля
         private Car _car;
         private int _quantity;
         private DateTime _saleDate;
 
-        // Конструктор
         public SaleRecord(Car car, int quantity, DateTime saleDate)
         {
             _car = car;

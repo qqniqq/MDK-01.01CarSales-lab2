@@ -2,12 +2,10 @@
 {
     public class Car
     {
-        // Приватные поля
         private string _model;
         private CarCategory _category;
         private decimal _price;
 
-        // Конструктор
         public Car(string model, CarCategory category, decimal price)
         {
             _model = model;

@@ -9,7 +9,6 @@ namespace CarSales
         // Приватное поле для хранения записей о продажах
         private List<SaleRecord> _salesRecords;
 
-        // Конструктор
         public SalesManager()
         {
             _salesRecords = new List<SaleRecord>();

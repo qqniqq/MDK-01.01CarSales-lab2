@@ -7,6 +7,6 @@ namespace CarSales
         SUV,
         Truck,
         SportsCar,
-        Electric
+        ElectricCar
     }
 }
